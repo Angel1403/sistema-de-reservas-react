@@ -1,12 +1,28 @@
-# React + Vite
+# 🗓️ Sistema de Reservaciones de Mesas
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📖 Descripción del Proyecto
 
-Currently, two official plugins are available:
+Este proyecto es una **aplicación de reservaciones de mesas** desarrollada con **React**. Permite a los usuarios realizar reservas en un restaurante, proporcionando datos como la fecha, hora y número de personas. Los usuarios pueden ver las reservas existentes en la misma página. Todo se maneja a través de un formulario interactivo, y las reservas se almacenan en el estado de la aplicación.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+La aplicación utiliza **Bootstrap** para un diseño receptivo y atractivo, y el **hook de estado de React** se usa para gestionar y mostrar las reservas realizadas.
 
-## Expanding the ESLint configuration
+## 🔍 Funcionalidades principales:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **Realizar un reserva**: Se permite a los usuarios ingresar la fecha, la hora y el número de personas para realizar una nueva reserva mediante un formulario.
+- **Ver reservas existentes**: Se muestra una lista de todas las reservas realizadas en la misma página, para que los usuarios puedan ver las mesas reservadas.
+
+## 🛠️ Tecnologías Utilizadas
+
+Este proyecto ha sido desarrollado utilizando las siguientes tecnologías y herramientas:
+
+- **React**: Biblioteca de JavaScript para crear interfaces de usuario dinámicas y reactivas.
+- **Bootstrap**: Framework CSS para diseñar y darle estilo a la interfaz de usuario de manera rápida y efectiva.
+- **State Management (useState)**: Utiliza el hook useState de React para gestionar las reservas de las mesas de manera eficiente.
+
+## 🌐 Explorar la Demo
+
+¡Echa un vistazo a la aplicación desplegada aquí! [Explorar la Demo](https://Angel1403.github.io/sistema-de-reservas-react).
+
+---
+
+Gracias por visitar este proyecto. ¡Espero que te sea útil y disfrutes de la aplicación! 😊
